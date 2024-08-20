@@ -1,11 +1,4 @@
-def calculo_pagar(dias, km):
-    """
-    Calcula quanto o cliente irá pagar
-    """
-    dias = int(dias)
-    km = int(km)
-    pagar = (dias * 70) + (km * 0.10)
-    return pagar
+from funcoes import calculo_pagar
 
 clientes = {}
 total_km = 0
